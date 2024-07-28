@@ -8,7 +8,7 @@ from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddi
 load_dotenv()
 
 # Set the Hugging Face API token
-os.environ["HUGGINGFACEHUB_API_KEY"] = "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"
+os.environ["HUGGINGFACEHUB_API_KEY"] = ""
 
 # Configure the Streamlit page
 st.set_page_config(page_title="Educate Kids", page_icon=":robot:")

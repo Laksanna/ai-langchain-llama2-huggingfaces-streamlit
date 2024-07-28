@@ -3,7 +3,7 @@ import streamlit as st
 from langchain_community.llms import HuggingFaceEndpoint
 
 # Set the Hugging Face API token
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 print(f"API Token Set: {os.environ.get('HUGGINGFACEHUB_API_TOKEN')}")  # Verify the token is set
 
 def load_answer(question):
